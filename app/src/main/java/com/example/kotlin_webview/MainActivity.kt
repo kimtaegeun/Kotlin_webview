@@ -1,15 +1,13 @@
 package com.example.kotlin_webview
 
+import android.annotation.SuppressLint
 import android.graphics.Bitmap
-import android.media.Image
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.inputmethod.EditorInfo
-
 import android.webkit.WebView
 import android.widget.EditText
 import android.widget.ImageButton
-import android.widget.ProgressBar
 import androidx.core.widget.ContentLoadingProgressBar
 
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
@@ -30,6 +28,7 @@ class MainActivity : AppCompatActivity() {
         bindviews()
     }
 
+    @SuppressLint("SetJavaScriptEnabled")
     private fun initView() {
         webView.apply {
             webViewClient = WebviewClient()
@@ -64,7 +63,7 @@ class MainActivity : AppCompatActivity() {
             webView.loadUrl(DEFAULT_URL)
         }
 
-        addrET.setOnEditorActionListener { textView, i, keyEvent ->
+        addrET.setOnEditorActionListener { textView, i, _ ->
             if (i == EditorInfo.IME_ACTION_DONE) {
                 webView.loadUrl(textView.text.toString())
             }
