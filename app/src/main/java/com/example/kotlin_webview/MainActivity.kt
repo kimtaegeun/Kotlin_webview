@@ -39,6 +39,8 @@ class MainActivity : AppCompatActivity() {
             // 테스트3번
             loadUrl(DEFAULT_URL)
             //?????
+            //?????
+            //????????
         }
     }
 
