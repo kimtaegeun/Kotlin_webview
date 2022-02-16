@@ -38,6 +38,7 @@ class MainActivity : AppCompatActivity() {
             settings.javaScriptEnabled = true
             // 테스트3번
             loadUrl(DEFAULT_URL)
+            //t2브랜치에서 작업
         }
     }
 
