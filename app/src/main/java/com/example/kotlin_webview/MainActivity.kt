@@ -36,6 +36,7 @@ class MainActivity : AppCompatActivity() {
             webChromeClient = WebChromeClient()
             // 테스트2
             settings.javaScriptEnabled = true
+            // 테스트3번
             loadUrl(DEFAULT_URL)
         }
     }
