@@ -39,6 +39,7 @@ class MainActivity : AppCompatActivity() {
             // 테스트3번
             loadUrl(DEFAULT_URL)
             //t1브랜치에서 작업
+            //t2브랜치에서 작업
         }
     }
 
