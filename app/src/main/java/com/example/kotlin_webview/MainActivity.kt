@@ -40,6 +40,9 @@ class MainActivity : AppCompatActivity() {
             loadUrl(DEFAULT_URL)
             //t1브랜치에서 작업
             //t2브랜치에서 작업
+            //?????
+            //?????
+            //????????
         }
     }
 
