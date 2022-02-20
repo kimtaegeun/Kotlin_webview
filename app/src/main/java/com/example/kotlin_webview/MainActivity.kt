@@ -63,6 +63,7 @@ class MainActivity : AppCompatActivity() {
             //swjang
             //tgkim
             //333
+            //ijojoijoi
         }
 
         backBT.setOnClickListener {
