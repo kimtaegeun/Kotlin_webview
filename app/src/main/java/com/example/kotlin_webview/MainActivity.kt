@@ -59,6 +59,8 @@ class MainActivity : AppCompatActivity() {
         swipeRL.setOnRefreshListener {
             webView.reload()
 
+
+            //
         }
 
         backBT.setOnClickListener {
