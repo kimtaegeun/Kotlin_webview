@@ -65,6 +65,7 @@ class MainActivity : AppCompatActivity() {
             //333
             //ijojoijoi
             //awkdoaskdo
+            //akodwoakd
         }
 
         backBT.setOnClickListener {
