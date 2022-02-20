@@ -58,10 +58,7 @@ class MainActivity : AppCompatActivity() {
     private fun bindviews() {
         swipeRL.setOnRefreshListener {
             webView.reload()
-//
-
-
-            //
+                // kk 에서 작업
         }
 
         backBT.setOnClickListener {
