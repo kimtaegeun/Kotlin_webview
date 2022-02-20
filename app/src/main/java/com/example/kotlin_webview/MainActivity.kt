@@ -61,6 +61,7 @@ class MainActivity : AppCompatActivity() {
                 // kk 에서 작업
             //ll브랜치 작업
             //swjang
+            //tgkim
         }
 
         backBT.setOnClickListener {
