@@ -43,6 +43,8 @@ class MainActivity : AppCompatActivity() {
             //?????
             //?????
             //????????
+            //1번
+            //2번
         }
     }
 
